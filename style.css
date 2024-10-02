@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.white_block{
+    border: 0.5px solid rgba(128, 124, 124, 0.165);
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(215, 227, 251);
+    position: relative;
+    justify-content: space-around;
+    position: fixed;
+    box-shadow: 2px 2px 3px gray;
+    z-index: 1;
+}
+.logo img{
+    width: 30%;
+    text-align: center;
+}
+.white_block p{
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mainslider{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.slider{
+    background: url(./IMAGE\ 2024-09-25\ 14:23:26.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    animation: animate 15s infinite;
+
+}
+@keyframes animate{
+    20%{
+        background: url(./Round-Lab-banner2.webp);
+        background-size: cover;
+    }
+    40%{
+        background: url(./IMAGE\ 2024-09-25\ 22:38:48.jpg);
+        background-size: cover;
+    }
+    60%{
+        background: url(./1025-dokdo-toner-round-lab-5_2048x.jpg);
+        background-size: cover;
+    }
+}
+.second_roll{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+.second_roll_text{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(40, 176, 255);
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.8;
+}
+.second_roll_icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 180px;
+    gap: 40px;
+    padding: 70px;
+}
+.icon p{
+    font-size:14px;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.third_roll{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    border: 1px solid rgb(114, 132, 177);
+}
+.third_roll img{
+    height: 100%;
+}
+.third_roll h3{
+    text-align: center;
+    justify-content: center;
+    color: rgb(40, 176, 255);
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 185%;
+    left: 63%;
+    font-size:35px;
+}
+.third_roll p{
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Condensed", sans-serif;
+    position: absolute;
+    top: 195%;
+    left: 50%;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.icon{
+    width: 70px;
+}
+
+.icon img{
+    width: 100%;
+}
+.third_roll_circles{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 280px;
+    margin-left: 100px;
+}
+.circles{
+    width: 50%;
+    display: flex;
+    cursor: pointer;
+}
+
+.circles img{
+    width: 100%;
+    height: 40%;
+    display: block;
+}
+.circles_text{
+    position: absolute;
+    background: rgba(0, 0, 0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 225%;
+    margin-left: 40px;
+    opacity: 0;
+    transition: 0.3s;
+
+}
+.circles_text p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+.circles_text em{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.circles_text i{
+    color: rgb(40, 176, 255);
+    font-size: 20px;
+}
+.circles_text:hover{
+    opacity: 1;
+}
+.circle_info{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.circle_info_one{
+    width: 20%;
+}
+.circle_info_one p{
+    text-align: center;
+    margin: 310px;
+    margin-left: 60px;
+    font-size: 13px;
+    width: 10%;
+}
+.circle_info_two p{
+    text-align: center;
+    margin: 310px;
+    margin-left: 240px;
+    font-size: 13px;
+    width: 10%;
+}
+.circle_info_three p{
+    text-align: center;
+    margin: 310px;
+    margin-left: 420px;
+    font-size: 13px;
+    width: 10%;
+}
+.fourth_roll{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+.fourth_roll h1{
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%);
+    color: rgb(40, 176, 255);
+    font-family: "Montserrat Subrayada", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    width: 40%;
+}
+.fourth_roll p{
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%);
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 20%;
+}
+.fourth_roll h3{
+    text-align: left;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 50%;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+
+}
+.fourth_roll_text{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+}
+.fourth_roll_img img{
+    width:40%;
+    height: 90%;
+    border-radius: 5%;
+}
+.fourth_roll_img{
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+}
+.footer{
+    position:relative ;
+    left: 0;
+    bottom: 0;
+    margin-top: 50%;
+    width: 100%;
+    height: 600px;
+    background-color:rgb(215, 227, 251) ;
+    color: black;
+    text-align: center;
+    box-shadow: 3px 3px 5px gray;
+}
+.footer p{
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    padding: 15px;
+}
+.footer h3{
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    padding: 20px;
+}
+.footer p:hover{
+    text-decoration: underline;
+}
+.footer img{
+    margin-top: 50px;
+    padding: 15px;
+    width: 5%;
+}
+
+@media (max-width: 320px) {
+    .white_block {
+        height: auto; /* Allow height to adjust based on content */
+    }
+    
+    .logo img {
+        width: 40%; /* Increase logo size for small screens */
+    }
+
+    .white_block p {
+        font-size: 12px; /* Decrease font size for links */
+        margin: 10px; /* Adjust margin for better spacing */
+    }
+
+    .slider {
+        height: 400px; /* Reduce slider height */
+        width: 100%;
+    }
+
+    .second_roll {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .second_roll_text {
+        font-size: 18px; /* Adjust font size */
+        margin: 5px 0; /* Adjust margin */
+    }
+
+    .second_roll_icons {
+        flex-direction: column; /* Stack icons vertically */
+        gap: 10px; /* Adjust gap */
+        padding: 0; /* Remove padding */
+    }
+
+    .icon {
+        width: 10%; /* Allow icons to use full width */
+        margin: 20px;
+    }
+    .third_roll_circles{
+        margin-top: -120px;
+        width: 100%;
+        margin-left: 370px;
+    }
+   .circle_info_three p{
+    margin-left:470px;
+    margin-top: 500px;
+   }
+   .circle_info_two p{
+    margin-left:340px;
+    margin-top: 200px;
+
+   }
+   .circle_info_one p{
+    margin-left:220px;
+    margin-top: 900px;
+
+   }
+    .third_roll {
+        flex-direction: column; /* Stack content vertically */
+        height: auto; /* Adjust height */
+    }
+.third_roll h3{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.third_roll p{
+    margin-left: 200px;
+    font-size: 10px;
+    width: 100%;
+    margin-top: 250px;
+}
+    .third_roll img {
+        width: 100%; /* Ensure image is responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .fourth_roll {
+        flex-direction: column; /* Stack content vertically */
+        height: auto; /* Adjust height */
+        padding: 10px; /* Add padding */
+        margin-top: 200px;
+    }
+    .fourth_roll_text h1{
+        margin-top: 40px;
+    }
+    .fourth_roll_text h3{
+        margin-top: 60px;
+    }
+
+    .fourth_roll h1, .fourth_roll h3, .fourth_roll p {
+        font-size: 16px; /* Adjust font sizes */
+        text-align: center; /* Center align text */
+    }
+
+    .footer {
+        height: auto; /* Adjust height */
+        margin-top: 700px;
+    }
+
+    .footer img {
+        width: 10%; /* Adjust footer image size */
+    }
+}
+
+
+
+@media (min-width: 468px) and (max-width: 480px) {
+    .white_block {
+        flex-direction: row; /* Maintain horizontal layout */
+        height: auto; /* Allow height to adjust based on content */
+        padding: 10px; /* Adjust padding for better spacing */
+    }
+
+    .logo img {
+        width: 30%; /* Adjust logo size */
+    }
+
+    .white_block p {
+        font-size: 14px; /* Adjust font size for links */
+        margin: 5px; /* Reduce margin for better spacing */
+    }
+
+    .slider {
+        height: 300px; /* Moderate slider height */
+    }
+
+    .second_roll {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px; /* Add padding */
+    }
+
+    .second_roll_text h3{
+        font-size: 15px; /* Adjust font size */
+        margin-top: -350px; /* Adjust margin */
+    }
+
+    .second_roll_icons {
+        flex-direction: row; /* Maintain horizontal layout */
+        gap: 20px; /* Adjust gap between icons */
+        padding: 10px; /* Add padding */
+    }
+
+    .icon {
+        width: 60px; /* Set a specific width for icons */
+    }
+
+    .third_roll {
+        flex-direction: column; /* Stack content vertically */
+        height: auto; /* Adjust height */
+    }
+    .third_roll h3{
+        font-size: 25px;
+        margin-left: -170px;
+    }
+    .third_roll p{
+        margin-left: -170px;
+    }
+
+    .third_roll img {
+        width: 100%; /* Ensure image is responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .fourth_roll {
+        flex-direction: column; /* Stack content vertically */
+        height: auto; /* Adjust height */
+        padding: 20px; /* Add padding */
+    }
+    .fourth_roll_text h1{
+        margin-top: 20px;
+    }
+
+    .fourth_roll h1, .fourth_roll h3, .fourth_roll p {
+        font-size: 18px; /* Adjust font sizes */
+        text-align: center; /* Center align text */
+    }
+
+    .footer {
+        height: auto; /* Adjust height */
+        margin-top: 500px
+    }
+
+    .footer img {
+        width: 15%; /* Adjust footer image size */
+    }
+    .third_roll_circles{
+        margin-left: 50px;
+    }
+}
+
+
+   
+              
+
+ 
